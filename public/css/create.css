@@ -1,0 +1,47 @@
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.field {
+    margin-bottom: 20px;
+}
+
+.field label {
+    display:block; 
+    margin-bottom: 5px;
+     color:#383838
+}
+
+.field input{
+    height: 0%;
+    width: 30%;
+}
+
+.submit-button{
+    margin-top: 15%;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.button-return{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #a72828;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+

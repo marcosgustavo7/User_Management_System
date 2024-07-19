@@ -1,0 +1,31 @@
+.org-tab-dash{
+    border: 1px solid rgb(39, 39, 39);
+    text-align: center;
+}
+
+.delete-buttom{
+    display: inline-block;
+    padding: 0px 15px;
+    background-color: #a72828;
+    color: #fff;
+    text-align: center;   
+}
+
+.unlock-buttom{
+    display: inline-block;
+    padding: 0px 15px;
+    background-color: #a79428;
+    color: #fff;
+    text-align: center;   
+}
+
+.create-buttom{
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #286aa7;
+    color: #fff;
+    text-align: center; 
+    border-radius: 5px;
+}
+
+
