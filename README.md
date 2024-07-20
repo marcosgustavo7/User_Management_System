@@ -6,8 +6,8 @@ This is a project made to test my skills using PHP, Laravel, Breeze and Blade us
  - PHP 8 version;
  - Composer;
  - Node.js and npm (for compiling assets);
- - Git (Not essential);
- - SQLite for database (Not essential);
+ - Git;
+ - SQLite for database;
 
 ### Begin
 The command lines shown below were made with users who use Windows operating systems in mind, so use the Command Prompt to carry out these commands (only the **"Clone The Repository"** commands that should be done in Git Bash instead of the Command Prompt).
