@@ -37,15 +37,8 @@ Create an .env file at the root of the project, copy all the code from .env.exam
 
 **php artisan key:generate**
 
-### Create the SQLite File
-Create a "database.sqlite" file in the "database" folder. You can create this file manually or by using the following command in the Command Prompt:
-
-**cd database**
-
-**echo > database.sqlite**
-
 ### Migrate and Populate the Database
-Run the migrations to create the database tables:
+I've decided to keep the **database.sqlite** file (file where the SQL data is kept) in the "database" folder for an easy use of the application, so you just need to Run the migrations to create the database tables:
 
 **php artisan migrate**
 
@@ -76,3 +69,28 @@ After all these instructions, every time you run the code, make sure you let the
 
 ## How to Run
 On the **http://localhost:8000** screen, to advance through the system, you need to click on one of the two buttons in the upper right corner of the screen called **Log In or Register**, so you go to the system screen!
+
+Since I kept the **database.sqlite** file in the "database" folder, the database is already populated with some admin users for log in screen since it is not possible to create them in the registration screen, so I will leave their log in information below:
+
+Name: Administrador01
+E-mail: AdminExample@gmail.com
+Password: @dminExample12
+
+Name: Administrator02
+E-mail: AdminExample2@gmail.com
+Password: @dminExample12
+
+
+Name: Administrator03
+E-mail: AdminExample3@gmail.com
+Password: @dminExample12
+
+Some commom users
+
+Name: Chris Redfield
+E-mail: ChrisRedfield@outlook.com
+Password: R3sidentEvil@12
+
+Name: Carl Jonhson
+E-mail: CarlJohnson@gmail.com
+Password: LikeV1deoG4mes@@
