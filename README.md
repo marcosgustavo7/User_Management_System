@@ -4,8 +4,8 @@ This is a project made to test my skills using PHP, Laravel, Breeze and Blade us
 ## How To Set Up And Run The Project Locally ##
 ### Requirements 
  - PHP 8 version;
- - Composer;
- - Node.js and npm (for compiling assets);
+ - Composer with Laravel;
+ - Node.js (v20.15) and npm (for compiling assets);
  - Git;
  - SQLite for database;
 
